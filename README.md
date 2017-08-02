@@ -6,9 +6,9 @@ This tool can help you create plot script preparation, you can custom:
 
 * script name
 * description (optional)
-* Title
-* xlabel
-* ylabel
+* Title (optional)
+* xlabel (optional)
+* ylabel (optional)
 * Format (such as png, svg...)
 * Font
 * Output name

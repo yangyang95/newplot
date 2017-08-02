@@ -24,6 +24,7 @@ You can use the install script `install.sh` to help you.
 
 ## Usage
 Open terminal and navigate to path you like.
+
 type `$ newplot`
 
 ![](https://i.imgur.com/H4mtgv5.png)
@@ -31,7 +32,8 @@ type `$ newplot`
 
 ## Licence
 licence is under GNU General Public License v3.0
-https://www.gnu.org/licenses/gpl-3.0.en.html
+
+see more: https://www.gnu.org/licenses/gpl-3.0.en.html
 
 ## Contact
 If you find bug or have advice, feel free to contact me.

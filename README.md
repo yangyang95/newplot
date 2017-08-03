@@ -17,7 +17,7 @@ This tool can help you create plot script preparation, you can custom:
 You can use the install script `install.sh` to help you.
 
 * First, make install script runnable
-`chmod +x install`
+`chmod +x install.sh`
 
 * run install sctipt
 `./install.sh`

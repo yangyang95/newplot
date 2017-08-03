@@ -22,7 +22,7 @@ echo $FALSE
 _name="plot"
 _format="png"
 _font="Verdana,10"
-_output="output.png"
+_output="output."
 
 # Collect information
 read -e -p "Name of your script: " -i ${_name} name
@@ -32,7 +32,7 @@ read -p "xlabel: " xlabel
 read -p "ylabel: " ylabel
 read -e -p "Format: " -i ${_format} format
 read -e -p "Font: " -i ${_font} font
-read -e -p "Output name: " -i ${_output} output
+read -e -p "Output name: " -i ${_output}${format} output
 
 # Check whether script name exist
 if [[ -e ${name}.gp ]]

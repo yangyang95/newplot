@@ -20,6 +20,7 @@ echo $FALSE
 
 # Default answer of creating new plot script
 _name="plot"
+_grid="y"
 _format="png"
 _font="Verdana,10"
 _output="output."
@@ -30,6 +31,7 @@ read -p "Description: " description
 read -p "Title: " title
 read -p "xlabel: " xlabel
 read -p "ylabel: " ylabel
+read -e -p "grid [y/n]: " -i ${_grid} grid
 read -e -p "Format: " -i ${_format} format
 read -e -p "Font: " -i ${_font} font
 read -e -p "Output name: " -i ${_output}${format} output
@@ -60,6 +62,12 @@ set ylabel '${ylabel}'
 set term ${format} enhanced font '${font}'
 set output '${output}'
 EOT
+
+# Setup grid as user decided
+if [[ -n ${grid} ]]
+then
+	echo "set grid" >> ${name}.gp
+fi
 
 # Success information
 echo ""

@@ -9,6 +9,7 @@ This tool can help you create plot script preparation, you can custom:
 * Title (optional)
 * xlabel (optional)
 * ylabel (optional)
+* grid
 * Format (such as png, svg...)
 * Font
 * Output name
